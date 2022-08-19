@@ -114,7 +114,7 @@ Reminder that ive only tested win10 so if this breaks any other windows systems 
   
 - Open CMD as admin
 
-[hi mum!](https://www.wikihow.com/images/6/68/Run-Command-Prompt-As-an-Administrator-on-Windows-Step-4.jpg)
+[!hi mum](https://www.wikihow.com/images/6/68/Run-Command-Prompt-As-an-Administrator-on-Windows-Step-4.jpg)
 
 
 - cd into the extracted dir (where you unzipped the zip)
