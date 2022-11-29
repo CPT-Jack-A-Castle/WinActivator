@@ -132,7 +132,7 @@ Reminder that ive only tested win10 so if this breaks any other windows systems 
   simply just use 
 
   ```sh
-  python3 runme.py
+  python runme.py
   ```
 
 - Read Carefully! 
@@ -142,7 +142,7 @@ Reminder that ive only tested win10 so if this breaks any other windows systems 
 
 ## After running
 
-- Wait for about 5 minutes and check if you can access those features!
+- Wait for about 5 minutes or less, and check if you can access those features!
 
     if needed, reboot
 
@@ -158,6 +158,6 @@ Reminder that ive only tested win10 so if this breaks any other windows systems 
 
 - Ive only tested this on Windows 10
 
-- The product key will only work on an install
+- The product key will only work per install
 
-    Does save to your account, and need to do this each fresh install
+    Does NOT save to your account, need to do this each fresh install
