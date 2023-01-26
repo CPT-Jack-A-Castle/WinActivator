@@ -21,20 +21,11 @@ print(">  ")
 time.sleep(1)
 print(">  Please share this repo!")
 time.sleep(1)
-print(">  ")
-time.sleep(1)
-print(">  If this gets popular enough, I'll make a batch script and maybe a GUI")
-time.sleep(1)
-print(">  ")
-time.sleep(1)
 print(">  https://github.com/sprmcell/WinActivator")
-time.sleep(1)
 print(">  ")
-time.sleep(1)
 print(">  running on python version")
 time.sleep(1)
 os.system("python --version")
-time.sleep(1)
 print(">  ")
 time.sleep(1)
 pvc=input(">  Is this correct? (y/n) ")
@@ -42,18 +33,10 @@ pvc=input(">  Is this correct? (y/n) ")
 if pvc.lower()=="y":
     print(">  Great! Now we can move on!")
     time.sleep(1)
-    print(">  Downloading Licenses!")
-    time.sleep(2)
-    print(">  .")
-    print(">  ..")
-    time.sleep(2)
-    print(">  ...")
-    time.sleep(3)
-    print(">  Downloaded 10 licenses without errors!")
+    print("please check 'About system' for your version")
     time.sleep(1)
 
     print(">  Please select your Version; Note must be version installed on pc")
-    time.sleep(1)
     print("""
     (1) Home
     (2) Home N
@@ -75,44 +58,39 @@ if pvc.lower()=="y":
 
     if vs.lower()=="1":
         os.system(f"slmgr /ipk {Home}")
-        print(">  Please wait for a Window to pop up!")
+       
     if vs.lower()=="2":
         os.system(f"slmgr /ipk {HomeN}")
-        print(">  Please wait for a Window to pop up!")
+        
     if vs.lower()=="3":
         os.system(f"slmgr /ipk {HSL}")
-        print(">  Please wait for a Window to pop up!")
+        
     if vs.lower()=="4":
         os.system(f"slmgr /ipk {HCS}")
-        print(">  Please wait for a window to pop up!")
+        
     if vs.lower()=="5":
         os.system(f"slmgr /ipk {Pro}")
-        print(">  Please wait a window to pop up!")
+       
     if vs.lower()=="6":
         os.system(f"slmgr /ipk {ProN}")
-        print(">  Please wait for a window to pop up!")
+        
     if vs.lower()=="7":
         os.system(f"slmgr /ipk {Edu}")
-        print(">  Please wait for a window to pop up!")
+        
     if vs.lower()=="8":
         os.system(f"slmgr /ipk {EduN}")
-        print(">  Please wait for a window to pop up")
+        
     if vs.lower()=="9":
         os.system(f"slmgr /ipk {Ent}")
-        print(">  Please wait for a window to pop up!")
+        
     if vs.lower()=="10":
         os.system(f"slmgr /ipk {EntN}")
-        print(">  Please wait for a window to pop up!")
 
-    time.sleep(2)
-    print(">  Please wait for us to verify your license key!")
+    time.sleep(1)
+    print(">  verifying the license ")
     os.system("slmgr /skms kms8.msguides.com")
     print(">  ")
-    time.sleep(3)
-    print(">  If a small window did not show for a bit, please wait")
-    time.sleep(2)
-    print(">  Please wait...")
-    print(">  ")
+    time.sleep(1)
     print(">  Applying license...")
     os.system("slmgr /ato")
     time.sleep(1)
