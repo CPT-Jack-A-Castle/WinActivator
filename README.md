@@ -161,3 +161,7 @@ Reminder that ive only tested win10 so if this breaks any other windows systems 
 - The product key will only work per install
 
     Does NOT save to your account, need to do this each fresh install
+    
+## Video i made
+
+[himom](https://youtu.be/lqw7lhdo9qk)
