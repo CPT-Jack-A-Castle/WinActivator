@@ -16,7 +16,6 @@ Ent = "NPPR9-FWDCX-D2C8J-H872K-2YT43"
 EntN = "DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4"
 
 print(">  Hi Anon! So proud of you! first step in rejecting microsoft! ")
-time.sleep(1)
 print(">  ")
 time.sleep(1)
 print(">  Please share this repo!")
